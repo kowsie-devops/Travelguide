@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Travel Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      color: #333;
+    }
+
+    .overlay {
+      background: rgba(255,255,255,0.9);
+      min-height: 100vh;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .contact-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .contact-container p {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.1em;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+      width: 100%;
+    }
+
+    textarea {
+      resize: none;
+      height: 120px;
+    }
+
+    button {
+      background: #27ae60;
+      color: white;
+      padding: 12px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #219150;
+    }
+
+    .social-links {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #fff;
+      background: #3498db;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Contact Us</h1>
+    <div class="contact-container">
+      <p>We’d love to hear from you! Whether you have a question about destinations, bookings, or travel tips, feel free to reach out.</p>
+      
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="social-links">
+        <a href="#">🌍 Visit Us</a>
+        <a href="#">📧 Email Us</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
